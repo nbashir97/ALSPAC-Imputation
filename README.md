@@ -16,7 +16,7 @@ The three original subgroups from within ALSPAC who were unified into a single i
 
 ## Variant Calling
 
-For the the individuals within "200G_3", the data was in .idat intensity files and the variants had to be called. The calling and first round of QC was done within GenomeStudio and then a second round of QC was done within R. Further details of this are within the /calling directory.
+For the the individuals within "200G_3", the data was in .idat intensity files and the variants had to be called. The calling and first round of QC was done within GenomeStudio and then a second round of QC was done within R. Further details of this are within the [/calling directory][calling].
 
 ## Imputation Round 1
 
@@ -31,6 +31,7 @@ Once PLINK binaries were available for the datasets, they were checked, prepared
 [alspac]: http://www.bristol.ac.uk/alspac/
 [anaconda]: https://www.anaconda.com/
 [bc4]: https://www.acrc.bris.ac.uk/acrc/phase4.htm
+[calling]: https://github.com/nbashir97/alspac_imputation/tree/main/calling
 [genomestudio]: https://emea.support.illumina.com/array/array_software/genomestudio/downloads.html
 [perl]: https://www.perl.org/
 [python]: https://www.python.org/
