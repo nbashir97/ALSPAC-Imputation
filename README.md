@@ -16,7 +16,7 @@ The three original subgroups from within ALSPAC who were unified into a single i
 
 ## Variant Calling
 
-For the the individuals within "200G_3", the data was in .idat intensity files and the variants had to be called. The calling and first round of QC was done within GenomeStudio and then a second round of QC was done within R. Further details of this are within the [/calling directory][calling].
+For the the individuals within "200G_3", the data was in .idat intensity files and the variants had to be called. The calling and first round of QC was done within GenomeStudio and then a second round of QC was done within R. Further details of this are within the [/calling][calling] directory.
 
 ## Imputation Round 1
 
