@@ -1,6 +1,6 @@
 # Variant Calling
 
-Intensity files with uncalled genotype data on the Illumina Infinium GSA v1.0 were provided for the "200G_3" cohort. The genotypes were called and an initial round of QC done in GenomeStudio and then a second round of QC was done in R.
+Intensity files with uncalled genotype data on the Illumina Infinium GSA v1.0 were provided for the "200G_3" cohort. The genotypes were called and an initial round of QC done in GenomeStudio, and then a second round of QC was done in R.
 
 This folder contains the following files:
 * **info.md**: This is a markdown file containing details for how the variant calling and QC was done within [GenomeStudio 2.0][genomestudio]. GenomeStudio does not use a CLI, so I have ensured the details provided are sufficient to reproduce the results from the GUI.
