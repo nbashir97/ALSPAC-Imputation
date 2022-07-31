@@ -4,7 +4,7 @@ This repository contains the scripts used to unify and impute genotypes for the 
 
 ## Prerequisites
 
-This work was carried out within [BlueCrystal Phase 4][bc4] high performance computing cluster at the University of Bristol. The following software is required (minimum versions): [GenomeStudio][genomestudio] 2.0, [Perl][perl] 5.30.0, [Python][python] 3.8.5 (ideally an [Anaconda][anaconda] distribution as this will have preinstalled the necessary libraries) AND a version 2.x of [Python][python] as one of the required scripts has not been refactored for version 3, [PLINK][plink] 1.9, [R][r] 4.1.0, [samtools][samtools] 1.13.
+This work was carried out within [BlueCrystal Phase 4][bc4] high performance computing cluster at the University of Bristol. The following software is required (minimum versions): [GenomeStudio][genomestudio] 2.0, [Perl][perl] 5.30.0, [Python][python] 3.8.5 (ideally an [Anaconda][anaconda] distribution as this will have preinstalled the necessary libraries) AND a version 2.x of [Python][python] as one of the required scripts has not been refactored to version 3, [PLINK][plink] 1.9, [R][r] 4.1.0, [samtools][samtools] 1.13.
 
 ## Details
 
