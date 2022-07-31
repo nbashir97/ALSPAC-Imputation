@@ -16,11 +16,11 @@ The three original subgroups from within ALSPAC who were unified into a single i
 
 ## Variant Calling
 
-For the the individuals within "200G_3", the data was in .idat intensity files and the variants had to be called. The calling and first round of QC was done within GenomeStudio and then a second round of QC was done within R. Further details of this are within the [/calling][calling] directory.
+For the the individuals within "200G_3", the data was in .idat intensity files and the variants had to be called. The calling and first round of QC was done within GenomeStudio and then a second round of QC was done within R. Further details of this stage are within the [/calling][calling] directory.
 
 ## Imputation Round 1
 
-Once PLINK binaries were available for the datasets, they were checked, prepared, and formatted to make them suitable for upload to the NIH server. This was done in line with the [recommendations][topmed_doc] from the TOPMed developers at University of Michigan. Further details of this are within the [/round1][round1] directory.
+Once PLINK binaries were available for the datasets, they were checked, prepared, and formatted to make them suitable for upload to the NIH server. This was done in line with the [recommendations][topmed_doc] from the TOPMed developers at University of Michigan. Further details of this stage are within the [/round1][round1] directory.
 
 ## Checks
 
