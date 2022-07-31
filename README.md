@@ -10,9 +10,9 @@ This work was carried out within [BlueCrystal Phase 4][bc4] high performance com
 
 The three original subgroups from within ALSPAC who were unified into a single imputed dataset were:
 
-* "gwa_660_g0m" (PLINK binaries): A batch of approximately 18,000 mothers and children ("Duos").
-* "gwa_exome_g0p" (PLINK binaries): A second batch of approximately 2,220 mothers and fathers.
-* "200G_3" (.idat files): A batch of approximately 3,000 of the most recent individuals for whom there was genotype data available, in uncalled intensity files.
+* **gwa_660_g0m** (PLINK binaries): A batch of approximately 18,000 mothers and children ("Duos").
+* **gwa_exome_g0p** (PLINK binaries): A second batch of approximately 2,220 mothers and fathers.
+* **200G_3** (.idat files): A batch of approximately 3,000 of the most recent individuals for whom there was genotype data available, in uncalled intensity files.
 
 ## Variant Calling
 
