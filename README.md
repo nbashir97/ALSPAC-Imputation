@@ -20,7 +20,7 @@ For the the individuals within "200G_3", the data was in .idat intensity files a
 
 ## Imputation Round 1
 
-Once PLINK binaries were available for the datasets, they were checked, prepared, and formatted to make them suitable for upload to the NIH server. This was done in line with the [recommendations][topmed_doc] from the TOPMed developers at University of Michigan. Further details of this are within the [/round1][https://github.com/nbashir97/alspac_imputation/tree/main/round1] directory.
+Once PLINK binaries were available for the datasets, they were checked, prepared, and formatted to make them suitable for upload to the NIH server. This was done in line with the [recommendations][topmed_doc] from the TOPMed developers at University of Michigan. Further details of this are within the [/round1][round1] directory.
 
 ## Checks
 
@@ -37,6 +37,7 @@ Once PLINK binaries were available for the datasets, they were checked, prepared
 [python]: https://www.python.org/
 [plink]: https://www.cog-genomics.org/plink/
 [r]: https://cran.r-project.org/bin/windows/base/
+[round1]: https://github.com/nbashir97/alspac_imputation/tree/main/round1
 [samtools]: http://www.htslib.org/
 [topmed]: https://imputation.biodatacatalyst.nhlbi.nih.gov/
 [topmed_doc]: https://topmedimpute.readthedocs.io/en/latest/
