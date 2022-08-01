@@ -10,15 +10,15 @@ This work was carried out within [BlueCrystal Phase 4][bc4] high performance com
 
 The three original subgroups from within ALSPAC who were unified into a single imputed dataset were:
 
-* **gwa_660_g0m** (PLINK binaries): A batch of approximately 18,000 mothers and children ("duos").
-* **gwa_exome_g0p** (PLINK binaries): A second batch of approximately 2,220 mothers and fathers.
-* **200G_3** (.idat files): A batch of approximately 3,000 of the most recent individuals for whom there was genotype data available, in uncalled intensity files.
+* `gwa_660_g0m` (PLINK binaries): A batch of approximately 18,000 mothers and children ("duos").
+* `gwa_exome_g0p` (PLINK binaries): A second batch of approximately 2,220 mothers and fathers.
+* `200G_3` (.idat files): A batch of approximately 3,000 of the most recent individuals for whom there was genotype data available, in uncalled intensity files.
 
-The config file is a .json file containing paths to the appropriate directories. These paths are user-specific and should be adjusted according to your file structure. The config file should be stored in your home directory.
+The `config.json` contains paths to the appropriate directories and is user-specific. It should be stored in your home directory.
 
 ## Variant Calling
 
-For the the individuals within "200G_3", the data was in .idat intensity files and the variants had to be called. The calling and first round of QC was done within GenomeStudio and then a second round of QC was done within R. Further details of this stage are within the [/calling][calling] directory.
+For the the individuals within `200G_3`, the data was in **.idat** intensity files and the variants had to be called. The calling and first round of QC was done within GenomeStudio and then a second round of QC was done within `R`. Further details of this stage are within the [/calling][calling] directory.
 
 ## Imputation Round 1
 
