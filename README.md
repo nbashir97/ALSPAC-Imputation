@@ -14,7 +14,7 @@ The three original subgroups from within ALSPAC who were unified into a single i
 * **gwa_exome_g0p** (PLINK binaries): A second batch of approximately 2,220 mothers and fathers.
 * **200G_3** (.idat files): A batch of approximately 3,000 of the most recent individuals for whom there was genotype data available, in uncalled intensity files.
 
-The config file is a .json file containing paths to the appropriate directories. These are user-specific and should be adjusted according to your file structure.
+The config file is a .json file containing paths to the appropriate directories. These paths are user-specific and should be adjusted according to your file structure. The config file should be stored in your home directory.
 
 ## Variant Calling
 
