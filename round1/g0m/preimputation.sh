@@ -32,12 +32,16 @@ helpers=`cat ~/config.json | jq -r '.alspac_helpers'`
 # Liftover from build 37 to build 38
 
 ## Count number of individuals and SNPs at baseline
-plink --bfile ${data}/g0m/data/originals/g0m --missing
+plink --bfile ${data}/g0m/data/originals/g0m \
+--missing \
+--out ${data}/g0m/data/preimputation/
 ### 17,842 individuals / 465,740 variants
 ### 0.999215 genotyping rate / 843 het. haploid genotypes
 
 # Check for any issues with mismatched sex
-plink --bfile ${data}/g0m/data/originals/g0m --check-sex
+plink --bfile ${data}/g0m/data/originals/g0m \
+--check-sex \
+--out ${data}/g0m/data/preimputation/
 
 ## Creating map file from bim file
 cut -f 1-4 ${data}/g0m/data/originals/g0m.bim > \
