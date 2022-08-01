@@ -26,6 +26,7 @@ alspac
 |     +-----gwas
 |     +-----liftover
 |     +-----reference
+|     +-----snpcheck
 |     +-----vcfcheck
 +-----subgroups
 |     +-----200g
