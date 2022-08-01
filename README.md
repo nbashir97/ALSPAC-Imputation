@@ -1,6 +1,6 @@
 # ALSPAC Imputation
 
-This repository contains the scripts used to unify and impute genotypes for the three main subgroups within the [Avon Longitudinal Study of Parents and Children (ALSPAC)][alspac] to the NIH [Trans-Omics for Precision Medicine (TOPMed)][topmed] reference panel.
+This repository contains the scripts used to unify and impute genotypes for the three main subgroups within the [Avon Longitudinal Study of Parents and Children (ALSPAC)][alspac] to the [Trans-Omics for Precision Medicine (TOPMed)][topmed] reference panel.
 
 ## Prerequisites
 
