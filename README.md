@@ -16,7 +16,7 @@ The three subgroups making up ALSPAC who were unified into a single imputed data
 
 The `config.json` contains paths to the appropriate directories and is user-specific. It should be stored in your home directory.
 
-The file structure I used was as follows (individual files are omitted, except for config):
+The file structure I used was as follows (individual files are omitted, except for `config.json`):
 
 ```
 alspac
