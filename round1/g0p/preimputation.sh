@@ -45,10 +45,11 @@ plink --bfile ${data}/g0p/data/originals/g0p \
 ### 2,198 individuals / 507,586 variants
 ### 0.998758 genotyping rate / 2,019 het. haploid genotypes
 
-# Check for any issues with mismatched sex
+## Check for any issues with mismatched sex
 plink --bfile ${data}/g0p/data/originals/g0p \
 --check-sex \
 --out ${data}/g0p/data/preimputation/log_sex
+### None identified
 
 ## Creating map file from bim file
 cut -f 1-4 ${data}/g0p/data/originals/g0p.bim > \
