@@ -3,6 +3,6 @@
 export PATH=$PATH:~/bin
 data=`cat ~/config.json | jq -r '.alspac_subgroups'`
 
-plink --file ${data}/200g/data/called/pre_qc/200g_preqc \
+plink --file ${data}/200g/data/called/pre_qc/200g \
 --make-bed \
---out ${data}/200g/data/called/pre_qc/200g_preqc
+--out ${data}/200g/data/called/pre_qc/200g
