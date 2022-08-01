@@ -12,7 +12,7 @@ Illumina provides two options when QCing called genotype data; hard cut-offs and
 
 ## Steps
 
-GenomeStudio is run from a GUI so there is no CLI script to provide, just the following set of instructions to reproduce the variant calling and QC:
+`GenomeStudio` is run from a GUI so there is no CLI script to provide, just the following set of instructions to reproduce the variant calling and QC:
 
 Creating project:
 * Import files: alspac_idats (raw intensity files), gsa-24-v1-manifest.bpm (GSA v1.0 manifest file), gsa-24-v1-manifest.egt (GSA v1.0 cluster file).
@@ -48,7 +48,7 @@ After QC:
 * Samples (_n_) = 2,868 (111 out of 2,979 excluded)
 * Loci (_n_) = 557,886 (60,654 out of 618,540 excluded)
 
-Exported as PLINK input files (200g.ped/200g.map)
+Exported as `PLINK` input files (200g.ped/200g.map)
 
 [files]: https://emea.support.illumina.com/downloads/infinium-global-screening-array-v1-0-product-files.html
 [gsa]: https://emea.illumina.com/products/by-type/microarray-kits/infinium-global-screening.html
