@@ -4,7 +4,7 @@
 
 # This script will carry out QC on the called genotypes which were output from GenomeStudio.
 # It requires the package "plinkQC", which will call PLINK 1.9 on the backend.
-# It also required the PLINK binaries from GenomeStudio, converted to .bed/.bim/.fam format 
+# It also requires the PLINK input files from GenomeStudio, converted to binaries. 
 
 # Loading plinkQC
 library(plinkQC)
