@@ -45,3 +45,5 @@ IDs <- cleanData(indir = indir, qcdir = qcdir, name = name,
                  filterRelated = FALSE,
                  filterAncestry = FALSE,
                  verbose = TRUE, showPlinkOutput = FALSE)
+
+# PLINK binaries renamed to "200g_clean"(.bed/.bim/.fam)
