@@ -18,7 +18,7 @@ The `config.json` contains paths to the appropriate directories and is user-spec
 
 ## Variant Calling
 
-For the the individuals within `200G_3`, the data was in **.idat** intensity files and the variants had to be called. The calling and first round of QC was done in `GenomeStudio` and then a second round of QC was done in R. Further details of this stage are within the [/calling][calling] directory.
+For the the individuals within `200G_3`, the data was in **.idat** intensity files and the variants had to be called. The calling and first round of QC was done in GenomeStudio and then a second round of QC was done in R. Further details of this stage are within the [/calling][calling] directory.
 
 ## Imputation Round 1
 
