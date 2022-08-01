@@ -19,8 +19,6 @@ The `config.json` contains paths to the appropriate directories and is user-spec
 The file structure I used was as follows (individual files are omitted, except for config):
 
 ```
-home
-|     config.json
 alspac
 +-----combined
 +-----helpers
@@ -59,6 +57,8 @@ alspac
 |     |     |     |     +-----checks
 |     |     |     |     +-----final
 |     |     |     +-----scripts
+home
+|     config.json
 ```
 
 ## Variant Calling
