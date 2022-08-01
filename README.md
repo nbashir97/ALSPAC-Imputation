@@ -84,7 +84,7 @@ Once PLINK binaries were available for the datasets, they were checked, prepared
 [perl]: https://www.perl.org/
 [python]: https://www.python.org/
 [plink]: https://www.cog-genomics.org/plink/
-[r]: https://cran.r-project.org/bin/windows/base/
+[r]: https://www.r-project.org/
 [round1]: https://github.com/nbashir97/alspac_imputation/tree/main/round1
 [samtools]: http://www.htslib.org/
 [topmed]: https://imputation.biodatacatalyst.nhlbi.nih.gov/
