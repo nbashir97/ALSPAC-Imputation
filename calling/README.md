@@ -7,7 +7,6 @@ This folder contains the following files:
 * **/helpers**: This folder contains the mainfest and cluster files corresponding to the [Illumina Infinium GSA v1.0][gsa], required in order to carry out the steps in **info.md**.
 * **convert.sh**: This converts the output from GenomeStudio (.ped/.map) into PLINK binaries (.bed/.bim/.fam) for the second round of QC in R.
 * **plinkqc.R**: This is R script for executing the second round of QC following completion of the steps outlined in **info.md**. This is done through the R package [*plinkqc*][plinkqc], which calls [PLINK 1.9][plink] under the hood.
-* **postqc.sh**: This is shell script for checking the number of individuals and variants after all of the QC steps have been done as outlined above. The newly created PLINK binaries are then moved into another folder before beginning the pre-imputation data preparation.
 
 [genomestudio]: https://emea.support.illumina.com/array/array_software/genomestudio/downloads.html
 [gsa]: https://emea.support.illumina.com/array/array_kits/infinium-global-screening-array/downloads.html
