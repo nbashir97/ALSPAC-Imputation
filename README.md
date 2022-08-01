@@ -48,7 +48,7 @@ alspac
 |     |     |     +-----preimputation
 |     |     |     |     +-----checks
 |     |     |     |     +-----final
-|     |     |+-----scripts
+|     |     +-----scripts
 |     +-----g0p
 |     |     +-----data
 |     |     |     +-----originals
