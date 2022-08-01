@@ -39,7 +39,7 @@ alspac
 |     |     |     |     +-----checks
 |     |     |     |     +-----final
 |     |     |     scripts
-|     |     g0m
+|     +-----g0m
 |     |     +-----data
 |     |     |     +-----originals
 |     |     |     +-----postimputation
@@ -48,7 +48,7 @@ alspac
 |     |     |     |     +-----checks
 |     |     |     |     +-----final
 |     |     |     scripts
-|     |     g0p
+|     +-----g0p
 |     |     +-----data
 |     |     |     +-----originals
 |     |     |     +-----postimputation
