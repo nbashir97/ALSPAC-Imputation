@@ -4,7 +4,7 @@ This repository contains the scripts used to unify and impute genotypes for the 
 
 ## Prerequisites
 
-This work was carried out within [BlueCrystal Phase 4][bc4] high performance computing cluster at the University of Bristol. The following software is required (minimum versions): [`GenomeStudio` 2.0][genomestudio], [`Perl` 5.30.0][perl], [`Python` 3.8.5][python] (ideally an [`Anaconda`][anaconda] distribution as this will have preinstalled the necessary libraries) AND a version 2.x of [`Python`][python] as one of the helper scripts has not been refactored to version 3, [`PLINK` 1.9][plink], [`R` 4.1.0][r], [`samtools` 1.13][samtools].
+This work was carried out within [BlueCrystal Phase 4][bc4] high performance computing cluster at the University of Bristol. The following software is required (minimum versions): [GenomeStudio 2.0][genomestudio], [Perl 5.30.0][perl], [Python 3.8.5][python] (ideally an [Anaconda][anaconda] distribution as this will have preinstalled the necessary libraries) AND a version 2.x of [Python][python] as one of the helper scripts has not been refactored to version 3, [PLINK 1.9][plink], [R 4.1.0][r], [samtools 1.13][samtools].
 
 ## Details
 
@@ -18,11 +18,11 @@ The `config.json` contains paths to the appropriate directories and is user-spec
 
 ## Variant Calling
 
-For the the individuals within `200G_3`, the data was in **.idat** intensity files and the variants had to be called. The calling and first round of QC was done in `GenomeStudio` and then a second round of QC was done in `R`. Further details of this stage are within the [/calling][calling] directory.
+For the the individuals within `200G_3`, the data was in **.idat** intensity files and the variants had to be called. The calling and first round of QC was done in `GenomeStudio` and then a second round of QC was done in R. Further details of this stage are within the [/calling][calling] directory.
 
 ## Imputation Round 1
 
-Once `PLINK` binaries were available for the datasets, they were checked, prepared, and formatted to make them suitable for upload to the NIH server. This was done in line with the [recommendations][topmed_doc] from the TOPMed developers at University of Michigan. Further details of this stage are within the [/round1][round1] directory.
+Once PLINK binaries were available for the datasets, they were checked, prepared, and formatted to make them suitable for upload to the NIH server. This was done in line with the [recommendations][topmed_doc] from the TOPMed developers at University of Michigan. Further details of this stage are within the [/round1][round1] directory.
 
 ## Checks
 
