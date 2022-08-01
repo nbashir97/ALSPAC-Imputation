@@ -39,7 +39,7 @@ alspac
 |     |     |     +-----preimputation
 |     |     |     |     +-----checks
 |     |     |     |     +-----final
-|     |     |     +-----scripts
+|     |     +-----scripts
 |     +-----g0m
 |     |     +-----data
 |     |     |     +-----originals
@@ -48,7 +48,7 @@ alspac
 |     |     |     +-----preimputation
 |     |     |     |     +-----checks
 |     |     |     |     +-----final
-|     |     |     +-----scripts
+|     |     |+-----scripts
 |     +-----g0p
 |     |     +-----data
 |     |     |     +-----originals
@@ -57,7 +57,7 @@ alspac
 |     |     |     +-----preimputation
 |     |     |     |     +-----checks
 |     |     |     |     +-----final
-|     |     |     +-----scripts
+|     |     +-----scripts
 home
 |     config.json
 ```
