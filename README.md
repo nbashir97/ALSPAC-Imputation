@@ -80,7 +80,7 @@ Once PLINK binaries were available for the datasets, they were checked, prepared
 [anaconda]: https://www.anaconda.com/
 [bc4]: https://www.acrc.bris.ac.uk/acrc/phase4.htm
 [calling]: https://github.com/nbashir97/alspac_imputation/tree/main/calling
-[genomestudio]: https://emea.support.illumina.com/array/array_software/genomestudio/downloads.html
+[genomestudio]: https://emea.illumina.com/techniques/microarrays/array-data-analysis-experimental-design/genomestudio.html
 [perl]: https://www.perl.org/
 [python]: https://www.python.org/
 [plink]: https://www.cog-genomics.org/plink/
