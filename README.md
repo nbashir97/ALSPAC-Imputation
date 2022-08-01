@@ -16,6 +16,49 @@ The three subgroups making up ALSPAC who were unified into a single imputed data
 
 The `config.json` contains paths to the appropriate directories and is user-specific. It should be stored in your home directory.
 
+The file structure I used was as follows (individual files omitted):
+
+```
+alspac
++-----combined
++-----helpers
+|     +-----checkbim
+|     +-----gwas
+|     +-----liftover
+|     +-----reference
+|     +-----vcfcheck
++-----subgroups
+|     +-----200g
+|     |     +-----data
+|     |     |     +-----called
+|     |     |     |     +-----post_qc
+|     |     |     |     +-----pre_qc
+|     |     |     +-----postimputation
+|     |     |     |     +-----originals
+|     |     |     +-----preimputation
+|     |     |     |     +-----checks
+|     |     |     |     +-----final
+|     |     |     scripts
+|     |     g0m
+|     |     +-----data
+|     |     |     +-----originals
+|     |     |     +-----postimputation
+|     |     |     |     +-----originals
+|     |     |     +-----preimputation
+|     |     |     |     +-----checks
+|     |     |     |     +-----final
+|     |     |     scripts
+|     |     g0p
+|     |     +-----data
+|     |     |     +-----originals
+|     |     |     +-----postimputation
+|     |     |     |     +-----originals
+|     |     |     +-----preimputation
+|     |     |     |     +-----checks
+|     |     |     |     +-----final
+|     |     |     scripts
+```
+
 ## Variant Calling
 
 For the the individuals within `200G_3`, the data was in **.idat** intensity files and the variants had to be called. The calling and first round of QC was done in GenomeStudio and then a second round of QC was done in R. Further details of this stage are within the [`/calling`][calling] directory.
