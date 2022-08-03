@@ -1,6 +1,6 @@
 # GenomeStudio Variant Calling & QC
 
-Provided were the intensity files containing results from genotyping, using the [Illumina Iffinium Global Screening Array v1.0][gsa]. Using the appropriate [manifest][files] and [cluster][files] files for the array, the genotypes were called and QCd. This was done in accordance with the [technical recommendations][guide] provided by Illumina for human studies. 
+Provided were the intensity files containing results from genotyping, using the [Illumina Iffinium Global Screening Array v1.0][gsa]. Using the appropriate manifest and cluster [files][files] for the array, the genotypes were called and QCd. This was done in accordance with the [technical recommendations][guide] provided by Illumina for human studies. 
 
 Note: Illumina's statistical methods for clustering are done by mapping from Cartesian to polar coordinates, as visualization of (normalized) r and theta is easier than (x,y). It is on this normalised polar coordinate scale that the SNP quality metrics are measured.
 
