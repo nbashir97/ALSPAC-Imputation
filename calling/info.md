@@ -4,7 +4,7 @@ Provided were the intensity files containing results from genotyping, using the 
 
 Note: Illumina's statistical methods for clustering are done by mapping from Cartesian to polar coordinates, as visualization of (normalized) r and theta is easier than (x,y). It is on this normalised polar coordinate scale that the SNP quality metrics are measured.
 
-A quick reference to read up on Illumina's terminology for naming strands: https://www.biostars.org/p/4885/
+A quick [reference][biostars] to read up on Illumina's terminology for naming strands.
 
 ## QC Cut-offs
 
@@ -60,6 +60,7 @@ After QC:
 
 Exported as PLINK input files (200g.ped/200g.map)
 
+[biostars]: https://www.biostars.org/p/4885/
 [files]: https://emea.support.illumina.com/downloads/infinium-global-screening-array-v1-0-product-files.html
 [gsa]: https://emea.illumina.com/products/by-type/microarray-kits/infinium-global-screening.html
 [guide]: https://www.illumina.com/Documents/products/technotes/technote_infinium_genotyping_data_analysis.pdf
