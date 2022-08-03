@@ -44,6 +44,16 @@ Filtering by normalised theta (cluster degrees from origin in polar coordinates)
 * SNP table: Filter=[("gsa-24-v1-manifest.bpm.Cluster Sep">=0.45) AND ("Call Freq">0.99) AND [("gsa-24-v1-manifest.bpm.AB R Mean">0.4) AND [("gsa-24-v1-manifest.bpm.AB T Mean">=0.2) AND ("gsa-24-v1-manifest.bpm.AB T Mean"<=0.8)]
 * Loci (_n_) = 557,886 (additional 351 excluded)
 
+Filtering by reproducibility errors
+* Update SNP statistics
+* SNP table: Filter=[("gsa-24-v1-manifest.bpm.Cluster Sep">=0.45) AND ("Call Freq">0.99) AND [("gsa-24-v1-manifest.bpm.AB R Mean">0.4) AND [("gsa-24-v1-manifest.bpm.AB T Mean">=0.2) AND ("gsa-24-v1-manifest.bpm.AB T Mean"<=0.8) AND ("Rep Errors">0)]
+* Loci (_n_) = 557,886 (additional 0 excluded)
+
+Filtering by excess heterozygote calls (HWE)
+* Update SNP statistics
+* SNP table: Filter=[("gsa-24-v1-manifest.bpm.Cluster Sep">=0.45) AND ("Call Freq">0.99) AND [("gsa-24-v1-manifest.bpm.AB R Mean">0.4) AND [("gsa-24-v1-manifest.bpm.AB T Mean">=0.2) AND ("gsa-24-v1-manifest.bpm.AB T Mean"<=0.8) AND ("Rep Errors">0) AND ("Het Excess"<=0.2)]
+* Loci (_n_) = 557,865 (additional 21 excluded)
+
 After QC:
 * Samples (_n_) = 2,868 (111 out of 2,979 excluded)
 * Loci (_n_) = 557,886 (60,654 out of 618,540 excluded)
