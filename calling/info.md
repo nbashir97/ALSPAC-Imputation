@@ -56,7 +56,7 @@ Filtering by excess heterozygote calls (HWE)
 
 After QC:
 * Samples (_n_) = 2,868 (111 out of 2,979 excluded)
-* Loci (_n_) = 557,886 (60,654 out of 618,540 excluded)
+* Loci (_n_) = 557,865 (60,675 out of 618,540 excluded)
 
 Exported as PLINK input files (200g.ped/200g.map)
 
