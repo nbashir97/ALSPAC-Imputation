@@ -21,27 +21,27 @@ Creating project:
 
 Filtering by sample quality (call rate)
 * Calculate call rates
-* In samples table: Filter=[(“Call Rate”) >= 0.99]
+* In samples table: Filter=[(“Call Rate”)>=0.99]
 * Samples (_n_) = 2,868 (111 excluded)
 
 Filtering by cluster separation (angle of cluster separation in polar coordinates)
 * Update SNP statistics
-* SNP table: Filter=[(“gsa-24-v1-manifest.bpm.Cluster Sep” >= 0.45)]
+* SNP table: Filter=[(“gsa-24-v1-manifest.bpm.Cluster Sep”>=0.45)]
 * Loci (_n_) = 608,979 (9,561 excluded)
 
 Filtering by call frequency
 * Update SNP statistics
-* SNP table: Filter=[("gsa-24-v1-manifest.bpm.Cluster Sep" >= 0.45) AND [("Call Freq" > 0.99)]]
+* SNP table: Filter=[("gsa-24-v1-manifest.bpm.Cluster Sep">=0.45) AND ("Call Freq">0.99)]
 * Loci (_n_) = 559,619 (additional 49,360 excluded)
 
 Filtering by normalised intensity (cluster radius from origin in polar coordinates)
 * Update SNP statistics
-* SNP table: Filter=[("gsa-24-v1-manifest.bpm.Cluster Sep" >= 0.45) AND [("Call Freq" > 0.99)] AND [("gsa-24-v1-manifest.bpm.AB R Mean" > 0.4)]]
+* SNP table: Filter=[("gsa-24-v1-manifest.bpm.Cluster Sep">=0.45) AND ("Call Freq">0.99) AND [("gsa-24-v1-manifest.bpm.AB R Mean">0.4)]
 * Loci (_n_) = 558,237 (additional 1,382 excluded)
 
 Filtering by normalised theta (cluster degrees from origin in polar coordinates)
 * Update SNP statistics
-* SNP table: Filter=[("gsa-24-v1-manifest.bpm.Cluster Sep" >= 0.45) AND [("Call Freq" > 0.99)] AND [("gsa-24-v1-manifest.bpm.AB R Mean" > 0.4)] AND [("gsa-24-v1-manifest.bpm.AB T Mean" >= 0.2)] AND [("gsa-24-v1-manifest.bpm.AB T Mean" <= 0.8)]]
+* SNP table: Filter=[("gsa-24-v1-manifest.bpm.Cluster Sep">=0.45) AND ("Call Freq">0.99) AND [("gsa-24-v1-manifest.bpm.AB R Mean">0.4) AND [("gsa-24-v1-manifest.bpm.AB T Mean">=0.2) AND ("gsa-24-v1-manifest.bpm.AB T Mean"<=0.8)]
 * Loci (_n_) = 557,886 (additional 351 excluded)
 
 After QC:
