@@ -1,4 +1,4 @@
-# This script converts the PLINK input files (.ped/.map) from GenomeStudio to PLINK binaries (.bed/.bim/.fam) for QC in R
+# This script converts the PLINK text files (.ped/.map) output by GenomeStudio into PLINK binaries (.bed/.bim/.fam) for QC in R
 
 export PATH=$PATH:~/bin
 data=`cat ~/config.json | jq -r '.alspac_subgroups'`
