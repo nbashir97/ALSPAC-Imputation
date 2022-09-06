@@ -129,7 +129,7 @@ plink --bfile ${data}/g0m/data/preimputation/g0m_final \
 perl ${helpers}/checkbim/HRC-1000G-check-bim.pl \
 -b ${data}/g0m/data/preimputation/g0m_final.bim \
 -f ${data}/g0m/data/preimputation/g0m_freq.frq \
--r /user/work/ds21941/alspac_new/helpers/reference/PASS.Variants.TOPMed_freeze5_hg38_dbSNP.tab.gz \
+-r ${helpers}/reference/PASS.Variants.TOPMed_freeze5_hg38_dbSNP.tab.gz \
 -h -o ${data}/g0m/data/preimputation/checks
 
 ##############################
