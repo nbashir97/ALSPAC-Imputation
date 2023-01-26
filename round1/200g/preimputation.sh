@@ -25,6 +25,13 @@ export PATH=$PATH:~/bin
 data=`cat ~/config.json | jq -r '.alspac_subgroups'`
 helpers=`cat ~/config.json | jq -r '.alspac_helpers'`
 
+## Rename bim file so it can be identified as the original
+mv ${data}/200g/data/called/post_qc/200g.bim ${data}/200g/data/called/post_qc/original_200g.bim
+
+## Swapping 23 for X in bim file
+awk -F '\t' '{ $1 = ($1 == "23" ? "X" : $1) } 1' OFS='\t' ${data}/200g/data/called/post_qc/original_200g.bim \
+> ${data}/200g/data/called/post_qc/200g.bim
+
 ##############################
 
 # Count number of individuals and SNPs at baseline
