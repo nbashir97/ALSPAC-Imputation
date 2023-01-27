@@ -70,8 +70,6 @@ For the the individuals within `200G_3`, the data were in .idat intensity files 
 
 Once PLINK binaries were available for the datasets, they were checked, prepared, and formatted to make them suitable for upload to the NIH server. This was done in line with the [recommendations][topmed_doc] from the TOPMed developers at University of Michigan. Further details of this stage are within the [`/round1`][round1] directory.
 
-## Checks
-
 ## Imputation Round 2
 
 ## Checks
